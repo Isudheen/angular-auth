@@ -1,0 +1,10 @@
+<div class="counter-view-div">
+  <h1>Count: {{ (count$ | async)?.counter }}</h1>
+</div>
+
+<div class="counter-btn-div">
+  <button class="counter-btn" (click)="decrementByOne()">Decrement</button>
+  <button class="counter-btn" (click)="resetToZero()">Reset</button>
+  <button class="counter-btn" (click)="incrementByOne()">Increment</button>
+  <button class="counter-btn" (click)="double()">Double</button>
+</div>

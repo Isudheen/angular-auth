@@ -1,0 +1,15 @@
+.counter-view-div {
+  display: flex;
+  justify-content: center;
+}
+
+.counter-btn-div {
+  display: flex;
+  justify-content: center;
+}
+
+.counter-btn {
+  background-color: #e4a11b;
+  padding: 20px;
+  margin: 5px;
+}
